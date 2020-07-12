@@ -1,0 +1,52 @@
+.homeOverview {
+  width: 100%;
+  color: white;
+}
+.login {
+  background-color: $greyDark2;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 16px;
+  font-size: 12px;
+  position: sticky;
+  padding: 0.5rem 2rem;
+}
+.btn {
+  padding: 8px 34px;
+  text-transform: uppercase;
+  letter-spacing: 1.76px;
+  border: 2px solid transparent;
+  margin: 10px 0;
+  font-weight: bold;
+  &:focus {
+    outline: none;
+  }
+}
+.log_in {
+  background-color: white;
+  color: black;
+  border-radius: 500px;
+  &:hover {
+    transform: scale(1.06);
+  }
+  &:active {
+    transform: scale(1);
+  }
+}
+.sign_up {
+  color: white;
+  &:active {
+    transform: scale(0.95);
+  }
+}
+.mainContent {
+  padding: 0 32px;
+  padding-top: 16px;
+}
+.unique {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
