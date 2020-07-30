@@ -3,7 +3,9 @@
   color: white;
   display: flex;
   flex-direction: column;
-  width: 232px;
+  width: 250px;
+  min-width: 232px;
+
   height: 100%;
   padding: 10px;
 }
@@ -16,7 +18,7 @@
   font-size: 1.3rem;
 }
 
-li {
+.NavbarList li {
   color: $greyText;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -44,4 +46,16 @@ li {
   .cookies-text {
     padding: 0.2rem;
   }
+}
+.icon {
+  margin-right: 16px;
+}
+.playList {
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: $greyText;
 }

@@ -1,6 +1,7 @@
 .homeOverview {
   width: 100%;
   color: white;
+  overflow-y: scroll;
 }
 .login {
   background-color: $greyDark2;
@@ -11,6 +12,8 @@
   padding-right: 16px;
   font-size: 12px;
   position: sticky;
+  top: 0;
+  z-index: 6;
   padding: 0.5rem 2rem;
 }
 .btn {
@@ -49,4 +52,19 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
+}
+.pb {
+  padding-bottom: 20px;
+}
+.charts {
+  margin-top: 32px;
+
+  .chart:hover {
+    text-decoration: underline;
+  }
+}
+.subText {
+  font-size: 14px;
+  color: $greyText;
+  margin-top: 0.5rem;
 }
